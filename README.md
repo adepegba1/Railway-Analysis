@@ -73,8 +73,8 @@ Top 5 routes by ticket sales volume:
       <td>4,209</td>
     </tr>
     <tr>
-      <td>London Kings</td>
-      <td>Cross	York</td>
+      <td>London Kings Cross</td>
+      <td>York</td>
       <td>3,922</td>
     </tr>
     <tr>
@@ -90,7 +90,7 @@ Top 5 routes by ticket sales volume:
   </tbody>
 </table>		
 		
-### Ticket Pricing
+Ticket Pricing
 <table>
   <thead>
     <tr>
@@ -109,86 +109,96 @@ Top 5 routes by ticket sales volume:
   </tr>
  </tbody>
 </table>
+Ticket Type Impact
+<table>
+	<thead>
+		<tr>
+			<th>Type</th>
+			<th>Avg. Price</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Advance</td>
+			<td>$17.61</td>
+		</tr>
+		<tr>
+			<td>Off-Peak</td>
+			<td>$25.52</td>
+		</tr>
+		<tr>
+			<td>Anytime</td>
+			<td>$39.20</td>
+		</tr>
+	</tbody>
+</table>
 
+✔ Advance tickets are cheaper, encouraging early bookings.
 
-Ticket Type Impact:
+### Delay Analysis
 
-Type	Avg. Price
-Advance	$17.61
-Off-Peak	$25.52
-Anytime	$39.20
+- Delayed vs On-time journeys:
+	- Pie chart shows ~27% delays vs 73% on-time.
 
-➤ Advance tickets are cheaper, encouraging early bookings.
+- Most delayed route:
+	- Liverpool Lime Street → London Euston (780 delays)
 
-5. Delay Analysis
+- Top reasons for delay:
+	- Signal Failure	
+	- Bad Weather	
+	- Technical Faults	
+	- Congestion	
+	- Staff Shortage
+   
+### Refund Behavior
+- Refunds from delayed journeys: 546 cases
+- 23.8% of refunds were due to delays.
+- Refunds more common at stations than online — possibly due to ease of in-person claims.
 
-Delayed vs On-time journeys:
-Pie chart shows ~27% delays vs 73% on-time.
+### Weekend vs Weekday Performance
+<table>
+	<thead>
+		<tr>
+			<th>Period</th>
+			<th>Delayed Journeys</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Weekdays</td>
+			<td>1,642</td>
+		</tr>
+		<tr>
+			<td>Weekends</td>
+			<td>650</td>
+		</tr>
+	</tbody>
+</table>
+✔ More delays occur during weekdays, likely due to heavier commuter traffic.
 
-Most delayed route:
-Liverpool Lime Street → London Euston (780 delays)
+## 💡 Recommendations
 
-Top reasons for delay:
+- Improve Route Reliability:
+	- Prioritize maintenance on Liverpool–London and Manchester–Liverpool routes.	
+	- Invest in signal infrastructure to address the leading cause of delays.
 
-Signal Failure
+- Enhance Online Refund System:
+	- Simplify digital refund requests to match the convenience of station-based claims.
 
-Bad Weather
+- Promote Off-Peak and Advance Sales:
+	- Offer discounts or loyalty points to shift demand away from peak hours.
 
-Technical Faults
+- Dynamic Pricing Strategies:
+	- Adjust ticket prices based on seasonality and purchase time (morning vs afternoon).
 
-Congestion
+- Customer Communication:
+	- Use purchase time and route data to send real-time notifications and travel updates.
 
-Staff Shortage
-
-6. Refund Behavior
-
-Refunds from delayed journeys: 546 cases
-
-23.8% of refunds were due to delays.
-
-Refunds more common at stations than online — possibly due to ease of in-person claims.
-
-7. Weekend vs Weekday Performance
-Period	Delayed Journeys
-Weekdays	1,642
-Weekends	650
-
-➤ More delays occur during weekdays, likely due to heavier commuter traffic.
-
-💡 Recommendations
-
-Improve Route Reliability:
-
-Prioritize maintenance on Liverpool–London and Manchester–Liverpool routes.
-
-Invest in signal infrastructure to address the leading cause of delays.
-
-Enhance Online Refund System:
-
-Simplify digital refund requests to match the convenience of station-based claims.
-
-Promote Off-Peak and Advance Sales:
-
-Offer discounts or loyalty points to shift demand away from peak hours.
-
-Dynamic Pricing Strategies:
-
-Adjust ticket prices based on seasonality and purchase time (morning vs afternoon).
-
-Customer Communication:
-
-Use purchase time and route data to send real-time notifications and travel updates.
-
-🧭 Conclusion
+## 🧭 Conclusion
 
 This analysis highlights that:
-
-Online purchases dominate the market.
-
-Weekday congestion and signal failures are major delay drivers.
-
-Advance tickets attract price-sensitive travelers, while first-class tickets yield higher per-ticket revenue.
-
-Improving infrastructure and refund systems can enhance customer satisfaction and revenue retention.
-
-Overall, the insights enable data-driven decision-making in operations, pricing, and customer engagement strategies.
+- Online purchases dominate the market.
+- Weekday congestion and signal failures are major delay drivers.
+- Advance tickets attract price-sensitive travelers, while first-class tickets yield higher per-ticket revenue.
+- Improving infrastructure and refund systems can enhance customer satisfaction and revenue retention.
+- Overall, the insights enable data-driven decision-making in operations, pricing, and customer engagement strategies.
